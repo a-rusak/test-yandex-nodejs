@@ -2,19 +2,33 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-    <script src="index.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js" defer></script>
 </head>
 
 <body>
-    <form action="success.json" id="myForm">
-        <input type="text" name="fio">
-        <button type="submit" id="submitButton"></button>
-    </form>
+  <form action="success.json" id="myForm" novalidate>
+    <input type="text" name="fio" required>
+    <input
+      type="email"
+      name="email"
+      id="email"
+      placeholder="aa@bb.cc"
+      required>
+    <label for="phone">Телефон:</label>
+    <input
+      type="tel"
+      name="phone"
+      id="phone"
+      placeholder="+7(999)999-99-99"
+      required>
+    <button type="submit" id="submitButton">Отправить</button>
+  </form>
+  <div id="resultContainer"></div>
 </body>
 
 </html>
