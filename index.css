@@ -4,6 +4,7 @@ body {
   font-size: 1.2rem;
   background-color: #333;
   color: #aaa;
+  padding: 1em;
 }
 
 input,
@@ -11,6 +12,7 @@ button {
   font-size: inherit;
   font-family: inherit;
   padding: 0.5em;
+  margin: 0.5em;
 }
 
 input {
@@ -26,4 +28,23 @@ input {
 
 .error {
   border: 1px solid red;
+}
+
+[id="resultContainer"] {
+  margin: 1em;
+  padding: 1em;
+  border: 2px solid transparent;
+}
+
+.success {
+  border-color: greenyellow;
+  color: greenyellow;
+}
+.error {
+  border-color: darkorange;
+  color: darkorange;
+}
+.progress {
+  border-color: lightseagreen;
+  color: lightseagreen;
 }

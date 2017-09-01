@@ -1,11 +1,29 @@
 {
   "name": "test-yandex-nodejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "Необходимо реализовать html-страницу с разметкой, логикой поведения и предоставлением глобального js-объекта с методами, описанными в п.1,2,3",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "alexander.rusak@gmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-rusak/test-yandex-nodejs.git"
+  },
+  "keywords": [
+    "javascript",
+    "yandex",
+    "nodejs",
+    "form",
+    "validation"
+  ],
+  "bugs": {
+    "url": "https://github.com/a-rusak/test-yandex-nodejs/issues"
+  },
+  "homepage": "https://github.com/a-rusak/test-yandex-nodejs#readme",
+  "devDependencies": {
+    "node-static": "^0.7.9"
+  }
 }
